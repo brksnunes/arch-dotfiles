@@ -1,0 +1,14 @@
+Sep 25 19:47 : state_file: Unrecognized line in state file: ## Copyright (C) 2020-2021 Aditya Shakya <adi1090x@gmail.com>
+Sep 25 19:47 : state_file: Unrecognized line in state file: ## Everyone is permitted to copy and distribute copies of this file under GNU-GPL3
+Sep 25 19:47 : state_file: Unrecognized line in state file:
+Sep 25 19:47 : avahi: Service 'Music Player @ arch' successfully established.
+Sep 25 20:05 : player: played "NEFFEX - Grateful [Copyright Free].mp3"
+Sep 26 11:55 : avahi: Service 'Music Player @ arch' successfully established.
+Sep 26 18:43 : avahi: Service 'Music Player @ arch' successfully established.
+Sep 26 21:52 : player: played "NEFFEX - Grateful [Copyright Free].mp3"
+Sep 26 21:54 : avahi: Service 'Music Player @ arch' successfully established.
+Sep 26 22:09 : player: played "Cartoon - On & On (feat. Daniel Levi) [NCS Release].mp3"
+Sep 26 22:12 : player: played "Culture Code - Make Me Move (feat. Karra) [NCS Release].mp3"
+Sep 26 22:15 : player: played "Janji - Heroes Tonight (feat. Johnning) [NCS Release].mp3"
+Sep 26 22:19 : player: played "N3WPORT - Power (feat. braev) [NCS Release].mp3"
+Sep 26 22:22 : player: played "NEFFEX - Grateful [Copyright Free].mp3"
