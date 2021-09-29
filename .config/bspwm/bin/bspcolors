@@ -30,7 +30,7 @@ getcolors () {
 }
 
 bspbar () {
-	cat > $DIR/polybar/colors <<- EOF	
+	cat > $DIR/polybar/colors.ini <<- EOF	
 	[color]
 
 	FOREGROUND = ${FOREGROUND}

@@ -2,41 +2,40 @@
 ! Copyright (C) 2020-2021 Aditya Shakya <adi1090x@gmail.com>
 ! Everyone is permitted to copy and distribute copies of this file under GNU-GPL3
 !
-! Forest color scheme
+! Gruvbox color scheme
 ! -----------------------------------------------------------------------------
 
-*foreground:  #C4C7C5
-*background:  #222D32
-*cursor:  #afbfbf
+*background: #282828
+*foreground: #ebdbb2
 
-!black
-*color0:  #263640
-*color8:  #4a697d
+! Black + DarkGrey
+*color0:  #3C3C3C
+*color8:  #928374
 
-!red
-*color1:  #EC7875
-*color9:  #FB8784
+! DarkRed + Red
+*color1:  #cc241d
+*color9:  #fb4934
 
-!green
-*color2:  #61C766
-*color10:  #70D675
+! DarkGreen + Green
+*color2:  #98971a
+*color10: #b8bb26
 
-!yellow
-*color3:  #FDD835
-*color11:  #FFE744
+! DarkYellow + Yellow
+*color3:  #d79921
+*color11: #fabd2f
 
-!blue
-*color4:  #42A5F5
-*color12:  #51B4FF
+! DarkBlue + Blue
+*color4:  #458588
+*color12: #83a598
 
-!magenta
-*color5:  #BA68C8
-*color13:  #C979D7
+! DarkMagenta + Magenta
+*color5:  #b16286
+*color13: #d3869b
 
-!cyan
-*color6:  #4DD0E1
-*color14:  #5CDFF0
+! DarkCyan + Cyan
+*color6:  #689d6a
+*color14: #8ec07c
 
-!white
-*color7:  #bfbaac
-*color15:  #fdf6e3
+! LightGrey + White
+*color7:  #a89984
+*color15: #ebdbb2
