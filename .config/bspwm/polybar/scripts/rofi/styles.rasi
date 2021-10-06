@@ -1,8 +1,7 @@
 configuration {
-	font:							"Iosevka Nerd Font 10";
+	font:							"FantasqueSansMono Nerd Font 10";
     show-icons:                     true;
 	icon-theme: 					"Papirus";
-    display-drun: 					"";
     drun-display-format:            "{name}";
     disable-history:                false;
 	sidebar-mode: 					false;
@@ -14,7 +13,7 @@ window {
     transparency:                   "real";
     background-color:               @bg;
     text-color:                     @fg;
-	border:							0px 0px 0px 0px;
+	border:							0px;
 	border-color:					@ac;
     border-radius:                  0px;
 	width:							300px;
@@ -25,41 +24,41 @@ window {
 
 prompt {
     enabled: 						true;
-	padding: 						6px 7px 4px 7px;
-	background-color: 				@bga;
-	text-color: 					@fg;
+	padding: 						0px 5px 5px 0px;
+	background-color: 				@al;
+	text-color: 					@bar;
 }
 
 textbox-prompt-colon {
-	padding: 						6px 7px 4px 7px;
-	background-color: 				@ac;
-	text-color: 					@fg;
+	padding: 						0.5px 5px 5px -10px;
+	font:							"google\-mdi 12";
+	background-color: 				@al;
+	text-color: 					@bar;
 	expand: false;
-	str: "";
-	font:							"feather 12";
+	str: "";
 }
 
 entry {
     background-color:               @al;
-    text-color:                     @fg;
-    placeholder-color:              @fg;
+    text-color:                     @bar;
+    placeholder-color:              @bar;
     expand:                         true;
     horizontal-align:               0;
-    placeholder:                    "Search...";
-	padding: 						6px;
+    placeholder:                    "Search";
+    padding:                        2px;
     blink:                          true;
 }
 
 inputbar {
 	children: 						[ textbox-prompt-colon, entry ];
-    background-color:               @bga;
-    text-color:                     @fg;
+    background-color:               @ac;
+    text-color:                     @bar;
     expand:                         false;
 	border:							0px;
     border-radius:                  0px;
 	border-color:					@ac;
     margin:                         0px;
-    padding:                        0px;
+    padding:                        15px 0px 8px 25px;
 }
 
 listview {
@@ -67,7 +66,7 @@ listview {
     padding:                        0px;
     columns:                        1;
     lines:                          5;
-    spacing:                        6px;
+    spacing:                        5px;
     cycle:                          true;
     dynamic:                        true;
     layout:                         vertical;
@@ -79,16 +78,16 @@ mainbox {
     border-radius:                  0px;
 	border-color:					@ac;
     children:                       [ inputbar, listview ];
-    spacing:                       	6px;
-    padding:                        6px;
+    spacing:                       	0px;
+    padding:                        0px;
 }
 
 element {
     background-color:               @al;
-    text-color:                     @fga;
+    text-color:                     @fg;
     orientation:                    horizontal;
     border-radius:                  0px;
-	padding: 						3px 3px 3px -23px;
+    padding:                        15px;
 }
 
 element-icon {
@@ -96,7 +95,7 @@ element-icon {
     text-color:       				inherit;
     horizontal-align:               0.5;
     vertical-align:                 0.5;
-    size:                           24px;
+    size:                           0px;
     border:                         0px;
 }
 
@@ -106,13 +105,13 @@ element-text {
     expand:                         true;
     horizontal-align:               0;
     vertical-align:                 0.5;
-    margin:                         0px 2.5px 0px 2.5px;
+    margin:                         0px 0px 0px -5px;
 }
 
 element selected {
-    background-color:               @se;
-    text-color:                     @fga;
-	border:							0px 0px 0px 0px;
+    background-color:               @bga;
+    text-color:                     @fg;
+	border:							0px;
     border-radius:                  0px;
-    border-color:                  	@ac;
+    border-color:                  	@bg;
 }

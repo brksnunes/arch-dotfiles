@@ -19,10 +19,10 @@ super + t
 
 # Rofi App Launcher
 alt + F1
-	sh ~/.config/bspwm/rofi/bin/launcher
+	sh ~/.config/bspwm/polybar/scripts/launcher.sh &
 
 # Rofi Network Menu
-super + n
+super + m
 	nmd
 
 # Rofi Themes Menu
@@ -30,8 +30,8 @@ ctrl + alt + t
 	sh ~/.config/bspwm/rofi/bin/themes
 
 # Rofi Menus/Applets
-super + {w,m,x,r,s,i}
-	sh ~/.config/bspwm/rofi/bin/{windows,mpd,powermenu,asroot,screenshot,network}
+super + {w,x,r,s,n}
+	sh ~/.config/bspwm/rofi/bin/{windows,powermenu,asroot,screenshot,network}
 
 ##---------- Applications ----------##
 
@@ -151,21 +151,5 @@ super + {Tab,grave}
 # Send focused window to another workspace
 super + {_,shift + }{1-8}
 	bspc {desktop -f,node -d} '^{1-8}'
-
-# Expanding windows
-super + control + {Left,Right,Up,Down}
-	bspc node -z {left -20 0,right 20 0,top 0 -20,bottom 0 20}
-	
-## Shrinking windows
-super + alt + {Left,Right,Up,Down}
-	bspc node -z {left 20 0,right -20 0,top 0 20,bottom 0 -20}
-	
-## Move floating windows
-alt + shift + {Left,Down,Up,Right}
-	bspc node -v {-20 0,0 20,0 -20,20 0}
-
-# Hide/Unhide Window
-super + shift + i
-	winmask		
 
 ##---------- EOF ----------##

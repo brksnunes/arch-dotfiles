@@ -24,6 +24,6 @@ case $chosen in
         bash ${BSP}/set-theme  '2.jpg' 'gruvbox' 'Orchis-dark-compact' 'Flatery-Orange-Dark' 'capitaine-cursors-light'
         ;;
     $theme_3)
-        bash ${BSP}/set-theme  '3.jpg' 'beach' 'Fluent-dark-compact' 'Fluent-orange-dark' 'capitaine-cursors-light'
+        bash ${BSP}/set-theme  '3.jpg' 'beach' 'Fluent-dark-compact' 'Fluent-dark' 'capitaine-cursors-light'
         ;;
 esac 
