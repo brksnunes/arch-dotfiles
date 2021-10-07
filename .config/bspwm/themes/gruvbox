@@ -5,11 +5,12 @@
 ! Gruvbox color scheme
 ! -----------------------------------------------------------------------------
 
-*background: #282828
-*foreground: #ebdbb2
+! hard contrast: *background: #32302f  #1d2021
+*background: #202020
+*foreground: #fbf1c7
 
 ! Black + DarkGrey
-*color0:  #3C3C3C
+*color0:  #282828
 *color8:  #928374
 
 ! DarkRed + Red
@@ -37,5 +38,5 @@
 *color14: #8ec07c
 
 ! LightGrey + White
-*color7:  #a89984
+*color7:  #fbf1c7
 *color15: #ebdbb2

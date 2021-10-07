@@ -30,8 +30,13 @@ ctrl + alt + t
 	sh ~/.config/bspwm/rofi/bin/themes
 
 # Rofi Menus/Applets
-super + {w,x,r,s,n}
-	sh ~/.config/bspwm/rofi/bin/{windows,powermenu,asroot,screenshot,network}
+super + {w,r,s,n}
+	sh ~/.config/bspwm/rofi/bin/{windows,asroot,screenshot,network}
+
+# Powermenu
+super + x
+	sh ~/.config/bspwm/polybar/scripts/powermenu.sh &
+
 
 ##---------- Applications ----------##
 
