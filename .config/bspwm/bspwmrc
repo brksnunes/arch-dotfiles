@@ -27,14 +27,15 @@ getcolors
 ## Configurations --------------------------------------------#
 
 # If DisplayPort-2 connected, split workspaces to both monitors
-if [ "$(xrandr | grep "DisplayPort-2 connected")" ]
+if [ "$(xrandr | grep "VGA1 connected")" ]
 then
-    bspc monitor DVI-D-0 -d 1 2 3 4 5
-    bspc monitor DisplayPort-2 -d 6 7 8 9 10
+	sh ~/.screenlayout/main.sh &
+    bspc monitor LVDS1 -d 1 2 3 4 5
+    bspc monitor VGA1 -d 6 7 8 9 10
 	# Reorder monitors
-	bspc wm -O DVI-D-0 DisplayPort-2
+	bspc wm -O LVDS1 VGA1
 else
-    bspc monitor DVI-D-0 -d 1 2 3 4 5 6 7 8 9 10
+    bspc monitor LVDS1 -d 1 2 3 4 5 6 7 8 9 10
 fi
 
 # Used to make polybar maintain proper workspaces per monitor when going from 2
@@ -139,7 +140,7 @@ exec mpd &
 nm-applet &
 
 # Monitor Setup
-sh ~/.screenlayout/main.sh &
+#sh ~/.screenlayout/main.sh &
 
 # Start bspwm scripts
 bspcolors

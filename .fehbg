@@ -1,2 +1,2 @@
 #!/bin/sh
-feh --no-fehbg --bg-fill '/usr/share/backgrounds/gruvbox.jpg' 
+feh --no-fehbg --bg-fill '/home/rodrigo/Pictures/Wallpapers/2.jpg' 
